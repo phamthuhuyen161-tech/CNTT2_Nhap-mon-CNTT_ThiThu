@@ -1,10 +1,10 @@
 # BÀI LÀM – THI THỬ HACKATHON 01
 
 - **Mã đề:** Thi thử
-- **Họ tên:** 
-- **Lớp:** 
+- **Họ tên:** Phạm Thu Huyền
+- **Lớp:** CNTT2
 - **Link repository:** 
-- **Hệ điều hành (Windows/macOS):** 
+- **Hệ điều hành (Windows/macOS):** Windows
 
 ## 4.2. Thao tác máy tính cơ bản bằng CLI
 
@@ -16,7 +16,7 @@ Get-childitem -force
 move-item  -path "nhap hang.txt" -destination "docs\"
 move-item -path "logo van phong pham.png" -destination "media\"
 copy-item -path "media\Logo Van Phong Pham.PNG" -destination "backup\
-remove-item "*.tmp"
+remove-item ".tmp"
 set-location "logs"
 get-childitem
 set-location ".."
