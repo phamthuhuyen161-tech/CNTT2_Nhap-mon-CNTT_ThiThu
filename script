@@ -1,0 +1,8 @@
+ Tac gia: Pham Thu Huyen 
+Ngay tao: 23/10/2026
+#>
+# đường dẫn tương đối
+$logpath = "log\shop.log"
+$reportpath = "log\auto_report.txt"
+# lọc các dòng chứ ERROR
+get-content "logs\shop.log" | select-string  "ERROR" | set-content "logs\auto_report.txt"
