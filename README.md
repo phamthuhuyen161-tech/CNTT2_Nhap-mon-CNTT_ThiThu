@@ -11,6 +11,6 @@ get-childitem -recurse -force
 ```
 ```
 - [x] hoàn thành cấu trúc thư mục
-- [] triển khai script tự động hóa log hệ thống 
+- [ ] triển khai script tự động hóa log hệ thống 
 ```
 > không upload file .env lên các nền tảng lưu trữ công khai
